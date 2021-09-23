@@ -1,8 +1,8 @@
 <h1 style="font-size: 40px ;">Vice Versa</h1>
-<form action="">
-    <textarea style="margin: 20 0 40 0 " rows="14" cols='50' >
+<form action="{% url 'reverse' %}">
+    <textarea style="margin: 20 0 40 0 " rows="10" cols='50' name="usertext" >
     
     </textarea>
     <br>
-    <button style="background-color: white;">Reverse!</button>
+    <input type="submit" value="Reverse">
 </form>
